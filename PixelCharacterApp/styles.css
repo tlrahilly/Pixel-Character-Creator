@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.container-fluid{
+  padding: 0;
+}
+.row{
+  margin: 0;
+}
+/*Nav CSS*/
+.nav{
+  background-image: url(images/navbg.gif);
+  border-bottom: 1px solid #000;
+  background-repeat: repeat-x;
+}
+.navbar-brand{
+  padding: 0;
+  margin-left: 2rem;
+}
+.navbar{
+  width: 100%;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  color: #fff;
+}
+#navbarSupportedContent{
+  justify-content: flex-end;
+}
+.nav-link{
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #4b0049;
+}
+.nav-item .nav-link.active{
+  color: #4b0049;
+  text-shadow: 1px 1px 1px #fff;
+}
+.nav-item:last-of-type{
+  margin-left: 2rem;
+  padding-top: .2rem;
+}
+.nav-item:last-of-type .nav-link{
+  font-weight: normal;
+  background: #fff;
+   color: #4b0049;
+   text-shadow: .5px .5px #ab0fa7;
+   border-radius: 18px;
+   padding: 0.2rem 0.7rem;
+}
+/*Main: Aside CSS*/
+aside{
+  background-color: #f3e4f4;
+}
+aside form{
+  padding: 2rem 1rem;
+}
+aside form p{
+  margin-bottom: .2rem;
+  font-weight: bold;
+}
+aside form select{
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+aside form input{
+   border-radius: 20px;
+   background-color: #7e7d7d;
+   border: 1px solid #7e7d7d;
+   color: #fff;
+   padding: .3rem 1rem;
+   text-transform: uppercase;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+aside form input:hover{
+  background-color: #4b0049;
+  border: 1px solid #a42ca1;
+}
+/*Main: Creator Area CSS*/
+.creator-area{
+  background-image: url(images/canvasareabg.gif);
+  height: 33.47rem;
+}
+.creator-area div{
+  position: relative;
+  top: 15%;
+  left: 31%;
+  width: 301px;
+  height: 361px;
+}
+.creator-area img:first-of-type{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.creator-area img:nth-of-type(2){
+  position: absolute;
+}
+.creator-area img:nth-of-type(3){
+  position: absolute;
+  }
+  .creator-area img:nth-of-type(4){
+    position: absolute;
+  }
+  .creator-area img:nth-of-type(5){
+    position: absolute;
+  }
+  .creator-area img:last-of-type{
+    position: absolute;
+  }
+/*Footer CSS*/
+footer{
+  border-top: 1px solid #000;
+  justify-content: space-between;
+  background-color: #4b0049;
+  color: #fff;
+}
+footer nav, footer div:nth-of-type(2) p, footer div:last-of-type p{
+  margin-top: 1.2rem;
+}
+footer ul{
+  list-style: none;
+}
+footer li{
+  margin-right: 1.5rem;
+}
+footer li a, footer li a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+footer div:last-of-type{
+  padding-right: 1rem;
+}
+.creator{
+  background-color: #fff;
+  border-radius: 14px;
+  padding: .3rem 1rem;
+  margin-bottom: 0;
+  text-decoration: none;
+  color: #4b0049;
+  text-shadow: .5px .5px #ab0fa7;
+}
+.creator:hover{
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
